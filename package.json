@@ -9,19 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@web3-react/core": "^8.2.2",
+    "bufferutil": "^4.0.7",
+    "ethers": "^6.7.1",
+    "next": "^13.5.3",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "utf-8-validate": "^5.0.10"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
+    "autoprefixer": "^10.4.16",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3",
+    "typescript": "latest"
   }
 }
